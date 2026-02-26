@@ -254,14 +254,15 @@ function Hero() {
   <div className="bc-hero-orbit-layer bc-hero-orbit-layer--outer" />
   <div className="bc-hero-orbit-layer bc-hero-orbit-layer--inner" />
 
-  {/* Added Image */}
-  <img 
-    src="/assets/oversized.jpeg" 
-    alt="Oversized Midnight Raven Outfit"
-    className="bc-hero-image"
-  />
-
   <div className="bc-hero-card">
+    
+    {/* Image INSIDE the card */}
+    <img 
+      src="/assets/oversized.jpeg" 
+      alt="Oversized Midnight Raven Hoodie"
+      className="bc-hero-card-image"
+    />
+
     <span className="bc-hero-card-tag">Drop 01</span>
     <p className="bc-hero-card-title">MIDNIGHT RAVEN</p>
     <p className="bc-hero-card-copy">
