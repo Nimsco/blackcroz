@@ -251,16 +251,24 @@ function Hero() {
         </div>
       </div>
       <div className="bc-hero-visual" data-reveal>
-        <div className="bc-hero-orbit-layer bc-hero-orbit-layer--outer" />
-        <div className="bc-hero-orbit-layer bc-hero-orbit-layer--inner" />
-        <div className="bc-hero-card">
-          <span className="bc-hero-card-tag">Drop 01</span>
-          <p className="bc-hero-card-title">MIDNIGHT RAVEN</p>
-          <p className="bc-hero-card-copy">
-            Oversized silhouettes in heavy-weight cotton with tonal embroidery.
-          </p>
-        </div>
-      </div>
+  <div className="bc-hero-orbit-layer bc-hero-orbit-layer--outer" />
+  <div className="bc-hero-orbit-layer bc-hero-orbit-layer--inner" />
+
+  {/* Added Image */}
+  <img 
+    src="/assets/oversized.jpeg" 
+    alt="Oversized Midnight Raven Outfit"
+    className="bc-hero-image"
+  />
+
+  <div className="bc-hero-card">
+    <span className="bc-hero-card-tag">Drop 01</span>
+    <p className="bc-hero-card-title">MIDNIGHT RAVEN</p>
+    <p className="bc-hero-card-copy">
+      Oversized silhouettes in heavy-weight cotton with tonal embroidery.
+    </p>
+  </div>
+</div>
     </section>
   );
 }
