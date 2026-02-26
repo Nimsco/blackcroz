@@ -240,7 +240,7 @@ function Hero() {
                 .getElementById("lookbook")
                 .scrollIntoView({ behavior: "smooth" })
             }
-          >
+          >   a
             Explore Lookbook
           </button>
         </div>
