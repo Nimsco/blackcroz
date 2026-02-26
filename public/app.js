@@ -149,7 +149,7 @@ function Navbar({ activeId, theme, onToggleTheme }) {
           <div className="bc-logo-mark">
             {/* Logo image – place your file at /public/assets/black-croz-logo.png */}
             <img
-              src="/assets/black-croz-logo.png"
+              src="/assets/blackcrozlogo.svg"
               alt="Black Croz logo"
               className="bc-logo-img"
               onError={(e) => {
