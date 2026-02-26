@@ -240,7 +240,7 @@ function Hero() {
                 .getElementById("lookbook")
                 .scrollIntoView({ behavior: "smooth" })
             }
-          >
+          >   a
             Explore Lookbook
           </button>
         </div>
@@ -254,6 +254,13 @@ function Hero() {
         <div className="bc-hero-orbit-layer bc-hero-orbit-layer--outer" />
         <div className="bc-hero-orbit-layer bc-hero-orbit-layer--inner" />
         <div className="bc-hero-card">
+          <div className="bc-hero-card-image">
+            <img
+              src="/assets/oversized.jpeg"
+              alt="Oversized Black Croz hoodie"
+              loading="lazy"
+            />
+          </div>
           <span className="bc-hero-card-tag">Drop 01</span>
           <p className="bc-hero-card-title">MIDNIGHT RAVEN</p>
           <p className="bc-hero-card-copy">

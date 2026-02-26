@@ -314,6 +314,7 @@ body {
   grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
   gap: 32px;
   align-items: center;
+  margin-inline: 6vw;
 }
 
 .bc-hero-bg-orbit {
@@ -432,13 +433,30 @@ body {
   position: relative;
   background: radial-gradient(circle at 0 0, #0f172a 0, #172554 45%, #020617 90%);
   border-radius: var(--bc-radius-lg);
-  padding: 28px 26px;
+  padding: 20px 22px 24px;
   box-shadow: var(--bc-shadow-soft);
   min-height: 260px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   overflow: hidden;
+}
+
+.bc-hero-card-image {
+  width: 115%;
+  margin-left: -7.5%;
+  aspect-ratio: 4 / 5;
+  border-radius: 22px;
+  overflow: hidden;
+  margin-bottom: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.28);
+}
+
+.bc-hero-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 .bc-hero-card::before {
@@ -456,7 +474,7 @@ body {
   font-size: 0.7rem;
   text-transform: uppercase;
   letter-spacing: 0.2em;
-  color: #111;
+  color: #f9fafb;
 }
 
 .bc-hero-card-title {
@@ -465,6 +483,7 @@ body {
   letter-spacing: 0.18em;
   text-transform: uppercase;
   margin: 10px 0 8px;
+  color: #ffffff;
 }
 
 .bc-hero-card-copy {
@@ -936,6 +955,7 @@ body {
 @media (max-width: 920px) {
   .bc-hero {
     grid-template-columns: minmax(0, 1fr);
+    margin-inline: 4vw;
   }
 
   .bc-hero-visual {
